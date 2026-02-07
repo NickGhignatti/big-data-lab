@@ -7,23 +7,23 @@ Configuration:
   Spark Version: 3.5.0
 
 Overall Statistics:
-  Total Operations: 10
-  Total Execution Time: 9.42s
-  Average Operation Time: 0.94s
-  Total Records Processed: 628,493
+  Total Operations: 9
+  Total Execution Time: 9.92s
+  Average Operation Time: 1.10s
+  Total Records Processed: 628,488
   Total Memory Delta: 0.12 MB
 
 Top 5 Slowest Operations:
                                    operation  duration_seconds
-Compute Average Hours by Genre and Sentiment          3.759042
-                Load and Parse Genres by App          1.382518
-                        Load and Parse Games          1.267315
-                      Load and Parse Reviews          1.236120
-      Sentiment by Playtime Bracket Analysis          0.774614
+Compute Average Hours by Genre and Sentiment          4.554780
+                Load and Parse Genres by App          1.723922
+                      Load and Parse Reviews          1.306474
+                        Load and Parse Games          1.182672
+      Sentiment by Playtime Bracket Analysis          0.898503
 
 Top 5 Memory Intensive Operations:
                    operation  memory_delta_mb
-          RDD repartitioning            0.125
+Load and Parse Genres by App            0.125
 Spark Session Initialization            0.000
         Load and Parse Games            0.000
       Load and Parse Reviews            0.000
