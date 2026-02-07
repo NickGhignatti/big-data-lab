@@ -1,0 +1,100 @@
+[
+  {
+    "operation": "Spark Session Initialization",
+    "duration_seconds": 0.020976781845092773,
+    "start_memory_mb": 193.9296875,
+    "end_memory_mb": 193.9296875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:10.529828",
+    "record_count": null
+  },
+  {
+    "operation": "Load and Parse Games",
+    "duration_seconds": 1.267315149307251,
+    "start_memory_mb": 194.0546875,
+    "end_memory_mb": 194.0546875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:25.963393",
+    "record_count": 12070,
+    "data_source": "rddGames"
+  },
+  {
+    "operation": "Load and Parse Reviews",
+    "duration_seconds": 1.2361197471618652,
+    "start_memory_mb": 194.0546875,
+    "end_memory_mb": 194.0546875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:27.200028",
+    "record_count": 28813,
+    "data_source": "rddReviews"
+  },
+  {
+    "operation": "Load and Parse Genres",
+    "duration_seconds": 0.18570160865783691,
+    "start_memory_mb": 194.0546875,
+    "end_memory_mb": 194.0546875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:27.386357",
+    "record_count": 33,
+    "data_source": "rddGenres"
+  },
+  {
+    "operation": "Load and Parse Genres by App",
+    "duration_seconds": 1.3825175762176514,
+    "start_memory_mb": 194.0546875,
+    "end_memory_mb": 194.0546875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:28.769305",
+    "record_count": 587484,
+    "data_source": "rddGenresByApp"
+  },
+  {
+    "operation": "RDD repartitioning",
+    "duration_seconds": 0.04379129409790039,
+    "start_memory_mb": 194.0546875,
+    "end_memory_mb": 194.1796875,
+    "memory_delta_mb": 0.125,
+    "timestamp": "2026-02-04T09:36:40.736325",
+    "record_count": null
+  },
+  {
+    "operation": "Compute Average Hours by Genre and Sentiment",
+    "duration_seconds": 3.7590415477752686,
+    "start_memory_mb": 194.1796875,
+    "end_memory_mb": 194.1796875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:49.048163",
+    "record_count": 54,
+    "aggregation_type": "average_by_genre_sentiment"
+  },
+  {
+    "operation": "Generate Genre Comparison Analysis",
+    "duration_seconds": 0.00234222412109375,
+    "start_memory_mb": 194.1796875,
+    "end_memory_mb": 194.1796875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:36:56.414653",
+    "record_count": 29,
+    "analysis_type": "genre_comparison"
+  },
+  {
+    "operation": "Sentiment by Playtime Bracket Analysis",
+    "duration_seconds": 0.7746143341064453,
+    "start_memory_mb": 194.1796875,
+    "end_memory_mb": 194.1796875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:37:01.030055",
+    "record_count": 5,
+    "analysis_type": "playtime_brackets"
+  },
+  {
+    "operation": "Sentiment by Playtime Bracket Analysis",
+    "duration_seconds": 0.7505664825439453,
+    "start_memory_mb": 203.5546875,
+    "end_memory_mb": 203.5546875,
+    "memory_delta_mb": 0.0,
+    "timestamp": "2026-02-04T09:37:18.353928",
+    "record_count": 5,
+    "analysis_type": "playtime_brackets"
+  }
+]
