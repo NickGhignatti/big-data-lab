@@ -1,0 +1,36 @@
+[
+  {
+    "operation": "Spark Session Initialization",
+    "duration_seconds": 17.774091720581055,
+    "timestamp": "2026-03-01T14:43:23.450865",
+    "record_count": null
+  },
+  {
+    "operation": "Optimization: Setup Broadcast Variables",
+    "duration_seconds": 11.786676406860352,
+    "timestamp": "2026-03-01T14:43:47.098158",
+    "record_count": 207937,
+    "type": "broadcast_creation"
+  },
+  {
+    "operation": "Optimized Pipeline: Map-Side Join + Aggregation",
+    "duration_seconds": 1619.2551419734955,
+    "timestamp": "2026-03-01T15:10:46.354238",
+    "record_count": 66,
+    "type": "optimized_execution"
+  },
+  {
+    "operation": "Generate Genre Comparison Analysis",
+    "duration_seconds": 0.0001895427703857422,
+    "timestamp": "2026-03-01T15:10:46.355199",
+    "record_count": 33,
+    "analysis_type": "genre_comparison"
+  },
+  {
+    "operation": "Sentiment by Playtime Bracket Analysis",
+    "duration_seconds": 1446.430652141571,
+    "timestamp": "2026-03-01T15:34:52.786406",
+    "record_count": 5,
+    "analysis_type": "playtime_brackets"
+  }
+]

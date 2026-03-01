@@ -1,0 +1,125 @@
+
+================================================================================
+AVERAGE HOURS PLAYED: POSITIVE VS NEGATIVE REVIEWS BY GENRE
+================================================================================
+Genre                          Sentiment    Avg Hours       Review Count   
+--------------------------------------------------------------------------------
+360 Video                      Negative     18.07           19             
+360 Video                      Positive     139.01          59             
+Accounting                     Negative     661.07          411            
+Accounting                     Positive     1929.23         641            
+Action                         Negative     8812.08         11,210,463     
+Action                         Positive     8981.83         62,564,594     
+Adventure                      Negative     6251.62         6,874,330      
+Adventure                      Positive     5116.47         37,368,293     
+Animation & Modeling           Negative     5524.91         28,454         
+Animation & Modeling           Positive     6838.46         841,682        
+Audio Production               Negative     13077.98        6,937          
+Audio Production               Positive     19326.01        81,791         
+Casual                         Negative     3784.73         1,979,447      
+Casual                         Positive     4084.72         14,127,514     
+Design & Illustration          Negative     5052.48         31,405         
+Design & Illustration          Positive     6997.59         837,854        
+Documentary                    Negative     150.65          60             
+Documentary                    Positive     96.79           729            
+Early Access                   Negative     5871.32         653,782        
+Early Access                   Positive     3880.26         3,246,727      
+Education                      Negative     6028.58         7,916          
+Education                      Positive     11818.97        44,768         
+Episodic                       Negative     62.44           200            
+Episodic                       Positive     163.43          5,391          
+Free to Play                   Negative     17134.31        4,972,990      
+Free to Play                   Positive     17535.33        21,547,123     
+Game Development               Negative     5080.24         8,222          
+Game Development               Positive     13347.36        63,390         
+Gore                           Negative     202.86          11,930         
+Gore                           Positive     469.62          37,040         
+Indie                          Negative     3871.51         4,990,135      
+Indie                          Positive     4568.16         39,927,834     
+Massively Multiplayer          Negative     14215.06        3,106,516      
+Massively Multiplayer          Positive     14475.44        8,978,354      
+Movie                          Negative     1587.61         1,686          
+Movie                          Positive     897.00          12,239         
+Nudity                         Negative     252.74          4,234          
+Nudity                         Positive     372.40          12,122         
+Photo Editing                  Negative     5315.97         16,772         
+Photo Editing                  Positive     5065.03         720,465        
+RPG                            Negative     6364.97         3,928,018      
+RPG                            Positive     7090.77         23,967,537     
+Racing                         Negative     5773.94         416,352        
+Racing                         Positive     6336.37         2,620,906      
+Sexual Content                 Negative     236.80          2,396          
+Sexual Content                 Positive     926.82          9,671          
+Short                          Negative     23.83           129            
+Short                          Positive     76.83           10,181         
+Simulation                     Negative     5039.17         2,900,329      
+Simulation                     Positive     6101.99         19,318,771     
+Software Training              Negative     4788.59         6,714          
+Software Training              Positive     9120.12         24,494         
+Sports                         Negative     7717.16         731,663        
+Sports                         Positive     6955.59         3,148,455      
+Strategy                       Negative     4894.58         2,600,545      
+Strategy                       Positive     6241.76         15,269,284     
+Tutorial                       Negative     63.81           11             
+Tutorial                       Positive     442.49          65             
+Utilities                      Negative     5860.08         46,238         
+Utilities                      Positive     7498.73         907,539        
+Video Production               Negative     6962.69         13,046         
+Video Production               Positive     12054.25        132,375        
+Violent                        Negative     386.68          18,797         
+Violent                        Positive     631.53          52,168         
+Web Publishing                 Negative     6891.87         8,514          
+Web Publishing                 Positive     13796.57        48,041         
+================================================================================
+
+==========================================================================================================
+GENRE COMPARISON SUMMARY
+==========================================================================================================
+Genre                          Pos Hrs      Neg Hrs      Diff            Total Reviews  
+----------------------------------------------------------------------------------------------------------
+Game Development               13347.36     5080.24      +8267.13        71,612          Positive            
+Web Publishing                 13796.57     6891.87      +6904.70        56,555          Positive            
+Audio Production               19326.01     13077.98     +6248.04        88,728          Positive            
+Education                      11818.97     6028.58      +5790.39        52,684          Positive            
+Video Production               12054.25     6962.69      +5091.55        145,421         Positive            
+Software Training              9120.12      4788.59      +4331.52        31,208          Positive            
+Design & Illustration          6997.59      5052.48      +1945.11        869,259         Positive            
+Utilities                      7498.73      5860.08      +1638.65        953,777         Positive            
+Strategy                       6241.76      4894.58      +1347.18        17,869,829      Positive            
+Animation & Modeling           6838.46      5524.91      +1313.55        870,136         Positive            
+Accounting                     1929.23      661.07       +1268.16        1,052           Positive            
+Simulation                     6101.99      5039.17      +1062.82        22,219,100      Positive            
+RPG                            7090.77      6364.97      +725.80         27,895,555      Positive            
+Indie                          4568.16      3871.51      +696.65         44,917,969      Positive            
+Sexual Content                 926.82       236.80       +690.02         12,067          Positive            
+Racing                         6336.37      5773.94      +562.43         3,037,258       Positive            
+Free to Play                   17535.33     17134.31     +401.02         26,520,113      Positive            
+Tutorial                       442.49       63.81        +378.67         76              Positive            
+Casual                         4084.72      3784.73      +299.98         16,106,961      Positive            
+Gore                           469.62       202.86       +266.76         48,970          Positive            
+Massively Multiplayer          14475.44     14215.06     +260.39         12,084,870      Positive            
+Violent                        631.53       386.68       +244.85         70,965          Positive            
+Action                         8981.83      8812.08      +169.75         73,775,057      Positive            
+360 Video                      139.01       18.07        +120.94         78              Positive            
+Nudity                         372.40       252.74       +119.66         16,356          Positive            
+Episodic                       163.43       62.44        +100.99         5,591           Positive            
+Short                          76.83        23.83        +53.00          10,310          Positive            
+Documentary                    96.79        150.65       -53.86          789             Negative            
+Photo Editing                  5065.03      5315.97      -250.94         737,237         Negative            
+Movie                          897.00       1587.61      -690.61         13,925          Negative            
+Sports                         6955.59      7717.16      -761.57         3,880,118       Negative            
+Adventure                      5116.47      6251.62      -1135.16        44,242,623      Negative            
+Early Access                   3880.26      5871.32      -1991.06        3,900,509       Negative            
+==========================================================================================================
+
+================================================================================
+SENTIMENT BY PLAYTIME BRACKET
+================================================================================
+Playtime Bracket               % Positive      Review Count   
+--------------------------------------------------------------------------------
+000-0h (Refund Window)         73.84           1,747,865      
+002-10h (Early Game)           48.92           762,095        
+010-50h (Mid Game)             57.58           4,154,515      
+050-200h (Committed)           71.97           7,844,021      
+200+h (Hardcore)               88.32           99,375,176     
+================================================================================

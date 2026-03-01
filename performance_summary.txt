@@ -1,0 +1,20 @@
+
+=========================================================================================================
+PERFORMANCE SUMMARY
+=========================================================================================================
+Operation                                     Duration (s)    Records Processed   
+-------------------------------------------------------------------------------------
+Spark Session Initialization                  17.77           NaN                 
+Optimization: Setup Broadcast Variables       11.79           207937              
+Optimized Pipeline: Map-Side Join + Aggregation 1619.26         66                  
+Generate Genre Comparison Analysis            0.00            33                  
+Sentiment by Playtime Bracket Analysis        1446.43         5                   
+
+=========================================================================================================
+AGGREGATE STATISTICS
+=========================================================================================================
+Total Operations: 5
+Total Execution Time: 3095.25 seconds
+Average Operation Time: 619.05 seconds
+Total Records Processed: 208,041
+=========================================================================================================
