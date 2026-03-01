@@ -10,8 +10,8 @@ BUCKET_NAME = "amzn-s3-steam-reviews"
 BUCKET_URI = f"s3://{BUCKET_NAME}"
 
 reviewFilePath      = f"{BUCKET_URI}/chunk_*.csv"   # glob reads all chunks
-genreFilePath       = f"{BUCKET_URI}/datasets/genres.csv"
-genreByAppFilePath  = f"{BUCKET_URI}/datasets/application_genres_standardized.csv"
+genreFilePath       = f"{BUCKET_URI}/genres.csv"
+genreByAppFilePath  = f"{BUCKET_URI}/application_genres_standardized.csv"
 OUTPUT_FOLDER       = "output/non_optimized"
 
 spark = SparkSession.builder \
