@@ -4,7 +4,7 @@ Big Data course (81932), University of Bologna.
 
 As of A.Y. 2025/26, the project must be developed locally and deployed on your AWS Virtual Lab.
 
-Last update: 21/10/2025
+Last update: 05/03/2026
 
 ## Instructions
 
@@ -18,10 +18,13 @@ Last update: 21/10/2025
 - When developing/debugging
     - Understand the dataset!
     - Use a sample of the dataset (<=10 MB) for debugging
-    - Use a notebook to implement two versions of the agreed-upon job: a non-optimized one and an optimized one
+    - Implement two versions of the agreed-upon job: a non-optimized one and an optimized one
+      - **You can use a Python notebook, but for local development only**
       - Both jobs must return exactly the same result!
-- When deploying
+- When deploying **to AWS**
+    - **Write the application (with both versions) in Scala, compile it into a jar, and submit it to the AWS cluster**
     - Test both versions of the job and download the corresponding histories
+      - **You must be able to discuss the histories at the exam**
     - Look at the execution plans (DAG, timelines, metrics about execution of stages and tasks) and verify that the optimizations were effective
     - Verify and understand the results (e.g., using Power BI, Tableau, Matplotlib, whichever you prefer)
 - To deliver the project, notify the teacher via email and send a ZIP file with
@@ -29,7 +32,7 @@ Last update: 21/10/2025
     - The sample of the dataset
     - The history of the executed jobs
     - A link to directly download the full dataset
-    - Any additional material (e.g., Power BI or Tableau file, Python script for charts)
+    - Any additional material (e.g., a Python script/notebook for charts, a Power BI or Tableau file)
 - Evaluation
     - 0 for sufficient projects
     - 1 or 2 points (to be added to the vote of the oral exam) based on technical complexity, correctness and extent of the performance evaluation, and originality
